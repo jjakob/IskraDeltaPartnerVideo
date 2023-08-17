@@ -1,0 +1,423 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_copper_edge_clearance": 0.0,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [
+      "duplicate_reference|1473200|279400|f69c32d8-9686-4dbe-9084-d272582443d0|e159e552-f34b-463a-8f33-a327988c2a6d|||",
+      "missing_bidi_pin|1498600|1206500|e1c657c0-6727-4ba8-9f46-efa9f3cb3e16|00000000-0000-0000-0000-000000000000|||",
+      "missing_bidi_pin|1498600|990600|d5cc1d1b-db94-4071-a88b-f4352908533e|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|1079500|444500|b0f1721b-bfc7-452b-b518-aab4524af7e6|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|1117600|444500|b0f1721b-bfc7-452b-b518-aab4524af7e6|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|1358900|1104900|120d16ed-b478-42cf-a243-2af8050de878|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|1358900|889000|bd07bbf2-6ed4-4798-b34f-1528dfa3af25|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|1498600|1206500|e1c657c0-6727-4ba8-9f46-efa9f3cb3e16|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|1498600|990600|d5cc1d1b-db94-4071-a88b-f4352908533e|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|482600|977900|f2f4c19a-8ded-4efe-a493-0f2b1c0c1aae|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|863600|1219200|cd67a857-247d-40b3-b41b-a2eaa6a9ebb5|00000000-0000-0000-0000-000000000000|||",
+      "missing_input_pin|876300|228600|69f7fe1b-7fd9-4704-8f8f-8bd1ac2daabf|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|1079500|444500|b0f1721b-bfc7-452b-b518-aab4524af7e6|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|1117600|444500|b0f1721b-bfc7-452b-b518-aab4524af7e6|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|1358900|1104900|120d16ed-b478-42cf-a243-2af8050de878|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|1358900|889000|bd07bbf2-6ed4-4798-b34f-1528dfa3af25|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|1498600|1206500|e1c657c0-6727-4ba8-9f46-efa9f3cb3e16|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|1498600|990600|d5cc1d1b-db94-4071-a88b-f4352908533e|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|482600|977900|f2f4c19a-8ded-4efe-a493-0f2b1c0c1aae|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|863600|1219200|cd67a857-247d-40b3-b41b-a2eaa6a9ebb5|00000000-0000-0000-0000-000000000000|||",
+      "missing_power_pin|876300|228600|69f7fe1b-7fd9-4704-8f8f-8bd1ac2daabf|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1079500|444500|b0f1721b-bfc7-452b-b518-aab4524af7e6|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1117600|444500|b0f1721b-bfc7-452b-b518-aab4524af7e6|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1358900|1104900|120d16ed-b478-42cf-a243-2af8050de878|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1358900|889000|bd07bbf2-6ed4-4798-b34f-1528dfa3af25|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1498600|1206500|e1c657c0-6727-4ba8-9f46-efa9f3cb3e16|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1498600|990600|d5cc1d1b-db94-4071-a88b-f4352908533e|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|482600|977900|f2f4c19a-8ded-4efe-a493-0f2b1c0c1aae|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|863600|1219200|cd67a857-247d-40b3-b41b-a2eaa6a9ebb5|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|876300|228600|69f7fe1b-7fd9-4704-8f8f-8bd1ac2daabf|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|1206500|393700|3e128ac8-2ab1-4392-975e-a831dc1e2292|eb7a16b4-13fd-44d0-8432-47858b264fec|||",
+      "multiple_net_names|2628900|228600|57e74973-0eb0-45ab-8c95-4ad245f35201|596c29a6-9fb2-46c2-8e0d-f91cc5a37fd6|||",
+      "multiple_net_names|749300|1282700|28337d58-f4fe-4edb-bfff-011f89b5f8f8|4d21e899-ae2a-449b-b56a-ef91f75dc988|||",
+      "pin_not_connected|1003300|444500|0438886b-4099-49ab-909b-49c23ca7f278|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1041400|444500|0438886b-4099-49ab-909b-49c23ca7f278|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1066800|381000|09368fca-8376-4b32-9843-6ba7fb791846|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1066800|431800|c57508dd-80e7-4c7b-b215-eb5dbd4f9866|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1282700|1079500|8b7826ae-ac09-47b6-a7b4-91b4a5e5258b|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1422400|1206500|a0e36188-7f24-4ffb-aa18-c4c7cd31c1f6|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1422400|279400|e895a87a-7446-4e04-952a-c182aaedae47|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1498600|1130300|178c2871-ae6f-4250-97ce-9babf9a88bb6|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|1498600|914400|02672ab8-2f66-4bee-b9ae-e04bb6bfc39b|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|406400|977900|4edd8be7-fc69-40bc-85fd-eb28c1dcc641|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|749300|901700|516cbf2f-f819-42ec-9e14-6f2483df1fd8|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|749300|952500|3a00ae01-577b-4a2f-89ff-622187fe8ce8|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|787400|1219200|8c63c9c5-8c57-443c-ae9b-d9ce11f3f282|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_connected|800100|228600|18ec91a8-d32d-4e1e-81c7-483455dd5da7|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|1066800|381000|09368fca-8376-4b32-9843-6ba7fb791846|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|1066800|431800|c57508dd-80e7-4c7b-b215-eb5dbd4f9866|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|1282700|1079500|8b7826ae-ac09-47b6-a7b4-91b4a5e5258b|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|749300|901700|516cbf2f-f819-42ec-9e14-6f2483df1fd8|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|749300|952500|3a00ae01-577b-4a2f-89ff-622187fe8ce8|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|787400|1219200|8c63c9c5-8c57-443c-ae9b-d9ce11f3f282|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|800100|228600|18ec91a8-d32d-4e1e-81c7-483455dd5da7|00000000-0000-0000-0000-000000000000|||"
+    ],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "partner_video.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "4e4bd923-66b9-417d-a8d2-36e7ab565a7a",
+      ""
+    ],
+    [
+      "0441f6cc-a29b-4289-997e-ef67a5a6762a",
+      "Powers"
+    ],
+    [
+      "1d1e666f-5cfe-4660-884a-4560f3fc7d0c",
+      "CPU"
+    ],
+    [
+      "876d5293-3ea5-4a3d-b3c0-16e3c5dce88f",
+      "Address Decoding"
+    ],
+    [
+      "1e3f6e52-ecc6-4e45-8f7f-1f20a754b797",
+      "DMA"
+    ],
+    [
+      "2dd24b97-02cd-4e0a-8818-2049a9056c31",
+      "Memory"
+    ],
+    [
+      "d5c949ec-26ff-402b-b564-8c1687fa48ab",
+      "PIT, UART"
+    ],
+    [
+      "4039434e-be7c-4698-8c9f-bca55eb81092",
+      "UART mods"
+    ],
+    [
+      "8fa6b5da-f0de-4df2-bb06-78f9e21f8f58",
+      "CRT controller"
+    ],
+    [
+      "7d8a50d0-ebf9-4214-9ac0-e4d21d5b4977",
+      "CRT controller mods"
+    ]
+  ],
+  "text_variables": {}
+}

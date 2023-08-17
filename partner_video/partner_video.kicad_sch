@@ -1,0 +1,175 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4e4bd923-66b9-417d-a8d2-36e7ab565a7a)
+
+  (paper "A4")
+
+  (title_block
+    (title "Iskra Delta Partner Video (text) 30 797 044")
+    (date "2023-08-17")
+    (rev "1")
+    (company "Jernej Jakob <jernej.jakob@gmail.com>")
+    (comment 1 "reverse engineered by hand")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 34.29 48.26) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0441f6cc-a29b-4289-997e-ef67a5a6762a)
+    (property "Sheetname" "Powers" (at 34.29 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "powers.kicad_sch" (at 34.29 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 58.42) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1d1e666f-5cfe-4660-884a-4560f3fc7d0c)
+    (property "Sheetname" "CPU" (at 34.29 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cpu.kicad_sch" (at 34.29 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 80.01) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1e3f6e52-ecc6-4e45-8f7f-1f20a754b797)
+    (property "Sheetname" "DMA" (at 34.29 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dma.kicad_sch" (at 34.29 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 91.44) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2dd24b97-02cd-4e0a-8818-2049a9056c31)
+    (property "Sheetname" "Memory" (at 34.29 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "memory.kicad_sch" (at 34.29 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 113.03) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4039434e-be7c-4698-8c9f-bca55eb81092)
+    (property "Sheetname" "UART mods" (at 34.29 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "uart_mods.kicad_sch" (at 34.29 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 132.08) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7d8a50d0-ebf9-4214-9ac0-e4d21d5b4977)
+    (property "Sheetname" "CRT controller mods" (at 34.29 131.3684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "crtc_mods.kicad_sch" (at 34.29 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 68.58) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 876d5293-3ea5-4a3d-b3c0-16e3c5dce88f)
+    (property "Sheetname" "Address Decoding" (at 34.29 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "address_decoding.kicad_sch" (at 34.29 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 121.92) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8fa6b5da-f0de-4df2-bb06-78f9e21f8f58)
+    (property "Sheetname" "CRT controller" (at 34.29 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "crtc.kicad_sch" (at 34.29 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 102.87) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d5c949ec-26ff-402b-b564-8c1687fa48ab)
+    (property "Sheetname" "PIT, UART" (at 34.29 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pit_uart.kicad_sch" (at 34.29 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "partner_video"
+        (path "/4e4bd923-66b9-417d-a8d2-36e7ab565a7a" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
