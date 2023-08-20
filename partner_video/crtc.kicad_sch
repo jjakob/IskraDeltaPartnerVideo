@@ -3621,8 +3621,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f2a89965-e08b-499f-82b9-d2317f819dd3)
   )
-  (text "JJ3:\n1-2 = GPA0 enable (2716 or 2732) 0400-07FF\n3-4 = GPA0 disable\n\nJJ4:\n1-2 = GPA1 enable (2732 only) 0800-0FFF\n3-4 = GPA1 disable (2716 p.21 = VPP)"
-    (at 128.27 33.02 0)
+  (text "JJ3:\n1-2 = GPA0 enable (2716 = 0400-07FF; 2732 = 0400-07FF, 0C00-0FFF)\n3-4 = GPA0 disable\n\nJJ4:\n1-2 = GPA1 enable (2732 only) 0800-0FFF\n3-4 = GPA1 disable (2716 p.21 = VPP)\n\nGPA1 signal is inverted!\nGPA1 low = A11 high = selects upper bank 0800-0FFF\nGPA1 high = A11 low = selects lower bank 0000-07FF"
+    (at 115.57 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ff3bfe5c-e1ab-420c-80ad-3e7a122bcee2)
   )
